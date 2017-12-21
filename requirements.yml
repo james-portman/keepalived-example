@@ -1,2 +1,2 @@
-- src: https://github.com/evrardjp/ansible-keepalived.git
+- src: https://github.com/james-portman/ansible-keepalived.git
   version: master
