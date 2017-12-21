@@ -1,0 +1,4 @@
+auto {{ nic.name }}
+iface {{ nic.name }} inet static
+  address {{ nic.ip }}
+  netmask {{ nic.subnet }}

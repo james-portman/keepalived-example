@@ -1,0 +1,4 @@
+---
+vrrp_nic: "enp0s8"
+vrrp_role: "BACKUP"
+vrrp_priority: "50"

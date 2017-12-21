@@ -1,0 +1,8 @@
+# vip = 192.168.33.2
+vagrant up
+vagrant ssh master
+  $ ip a
+  $ sudo reboot
+vagrant ssh backup
+  $ ip a
+  # (vip should have moved)

@@ -1,0 +1,13 @@
+---
+keepalived_sync_groups:
+  haproxy:
+    instances:
+      - internal
+keepalived_instances:
+  internal:
+    interface: "{{ vrrp_nic }}"
+    state: "{{ vrrp_role }}"
+    virtual_router_id: 1
+    priority: "{{ vrrp_priority }}"
+    vips:
+      - "192.168.33.2/24 dev {{ vrrp_nic }}"

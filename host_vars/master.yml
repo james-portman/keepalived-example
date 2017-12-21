@@ -1,0 +1,4 @@
+---
+vrrp_nic: "enp0s8"
+vrrp_role: "MASTER"
+vrrp_priority: "100"
